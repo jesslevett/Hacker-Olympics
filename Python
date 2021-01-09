@@ -38,7 +38,7 @@ while valid_range == False: #While statement reprompts for lower and upper bound
     if range_lower == range_upper: #If lower bound is equal to upper bound of range
         print("Error. Lower bound of range cannot equal to the upper bound of range.") #Printing error message
 
-random_number = random.randint(range_lower,range_upper) #Calling random function to choose a random integer between 1 and 100 (inclusive) using the rand() function
+random_number = random.randint(range_lower,range_upper) #Calling random function to choose a random integer between lower bound of range and upper bound of range (inclusive) using the rand() function
 correct_number = False #Creating boolean for incorrect/correct guesses
 while correct_number == False: #While statement reprompts for number/input/guess as long it isn't correct
     number = input("Enter a number between " + str(range_lower) + " and " + str(range_upper) + ": ") #Prompting the user for an input/guess
