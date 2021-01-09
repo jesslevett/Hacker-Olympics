@@ -1,1 +1,29 @@
+print("-------SheHacks_Hack Olympics------")
+print("--------------Team 12--------------")
+print("---Challenge #1: Intro to Python---")
+
+#generate a random integer from 0 to 100
+import random
+target_num = random.randint(0, 100)
+
+
+
+#asking for user input and validate it is an integer
+
+input_var=input("Please guess an integer between 0 and 100 :")
+
+while type(input_var) is not int :
+    input_var = input("Please input an integer between 0 and 100:")
+
+while  input_var <=0 or input_var >=100
+    input_var = input("Please input an integer between 0 and 100:")
+    if input_var.isdigit():
+        input_var = int(input_var)
+    else:
+        print("input is not valid, please enter an integer")
+
+print("The number you put in is:")
+print(input_var)
+
+
 
