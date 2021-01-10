@@ -1,1 +1,42 @@
-
+header {
+	background: #FFBDF0;
+}
+h1{
+	color: #6C62FF;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: verdana;
+}
+h2{
+	color: #FFBDF0;
+	text-transform: uppercase;
+	font-family: verdana;
+}
+h3{
+	color: #6C62FF;
+	font-family: verdana;
+}
+p{
+	color: #757575;
+	font-family: verdana;
+}
+summary{
+	color: #6C62FF;
+	font-family: verdana;
+	font-weight: bold;
+}
+img{
+	border: 3px solid;
+	border-color: #FFBDF0;
+}
+h4{
+	color: #6C62FF;
+	font-family: verdana;
+}
+footer{
+	font-family: verdana;
+	text-align: center;
+}
+footer span{
+	background: #FFBDF0;
+}
