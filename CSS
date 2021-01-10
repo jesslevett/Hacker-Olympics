@@ -27,7 +27,7 @@ summary{
 }
 img{
 	border: 3px solid;
-	border-color: #FFBDF0;
+	border-color: #6C62FF;
 }
 h4{
 	color: #6C62FF;
@@ -39,4 +39,8 @@ footer{
 }
 footer span{
 	background: #FFBDF0;
+}
+a{
+	color: #FFBDF0;
+	font-family: verdana;
 }
